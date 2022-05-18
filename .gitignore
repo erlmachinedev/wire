@@ -1,0 +1,8 @@
+.erlang.mk/
+.DS_Store
+Mnesia.*
+wire.d
+deps/
+ebin/
+logs/
+*.beam

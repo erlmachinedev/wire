@@ -1,0 +1,16 @@
+{application, wire,
+ [
+  {description, "Electric power transmission based on RabbitMq"},
+  {vsn, "1.0.1"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel, stdlib,
+                  erlmachine,
+                  amqp_client
+                 ]},
+  {env, []},
+
+  {licenses, ["mit"]},
+  {links, [{"Gitlab", "https://gitlab.com/tradesprocessor/wire"}]}
+ ]}.
